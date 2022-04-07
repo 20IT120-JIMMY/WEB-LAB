@@ -5,7 +5,7 @@ function validate(forms){
         checkbox+=document.forms.hobbies[i].value+'\n'
     }
     if(checkbox=="")
-    alert("Please select Min Two option")
+    alert("Please select Min One option")
     else
     alert(checkbox)
     return false; 
